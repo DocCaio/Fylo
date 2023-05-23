@@ -1,1 +1,25 @@
-/*# sourceMappingURL=style.css.map */
+ @import '/styles/components/header.css';
+ @import'/styles/components/main.css';
+ 
+ body {
+    background-color: var(--dark);
+    font-size: 14px;
+ }
+
+:root {
+--font-primaria: 'Open Sans', sans-serif;
+--fonte-secundaria:'Raleway', sans-serif;
+
+
+--dark:hsl(217, 28%, 15%);
+
+
+
+--blue-1:hsl(176, 68%, 64%);
+--blue-2:hsl(198, 60%, 50%);
+--erro: hsl(0, 100%, 63%);
+
+
+--neutra:hsl(0, 0%, 100%);
+
+}
