@@ -1,0 +1,28 @@
+.illustration-intro {
+    width: 100vw;
+}
+
+.h1 {
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    color: var(--neutra);
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    color: var(--neutra);
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.button {
+    border-radius: 1rem ;
+    color: var(--neutra);
+    width: 200px; 
+    height: 60px;
+    background: radial-gradient(circle, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 35%);
+}

@@ -22,14 +22,3 @@
 
 }
 
-.illustration-intro {
-    width: 100vw;
-}
-
-.h1 {
-    font-family: var(--fonte-secundaria);
-    font-weight: 700;
-    color: var(--neutra);
-    font-size: 2rem;
-    text-align: center;
-}
