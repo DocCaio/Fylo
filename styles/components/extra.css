@@ -1,0 +1,23 @@
+.containner-3 {
+    text-align: center;
+}
+
+.Photo {
+    margin-top: 7rem;
+    width: 100vw;
+}
+
+.h2 {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--neutra);    
+
+}
+
+.sub {
+    font-family: var(--fonte-primaria);
+    color: var(--blue-1);
+    text-decoration: var(--blue-1) dashed;
+    justify-content: flex-start;
+}
