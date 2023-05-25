@@ -16,6 +16,7 @@
 .list {
     display: flex;
     color: var(--neutra);
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     margin: 2rem;
     gap: 1rem;
