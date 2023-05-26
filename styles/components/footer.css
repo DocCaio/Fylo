@@ -1,0 +1,37 @@
+.containner-5 {
+  margin-top: 5rem;
+}
+
+.div-gps {
+    display: flex;        
+    color: var(--neutra);
+    width: 90vw;
+}
+
+.gps {
+    margin: 0 2rem;
+    height: 100%;
+}
+
+
+
+
+
+
+.icons {
+    color: var(--neutra);
+    font-family: var(--fonte-primaria);
+    margin: 2rem;
+
+}
+
+.block {
+    margin: 2rem;
+    color: var(--neutra);
+    font-family: var(--fonte-primaria);
+    line-height: 1.5rem;
+}
+
+.sub-block {
+    font-size: large;
+}
