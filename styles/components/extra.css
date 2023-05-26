@@ -20,4 +20,45 @@
     color: var(--blue-1);
     text-decoration: var(--blue-1) dashed;
     justify-content: flex-start;
+   
+}
+
+
+.containner-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-bg);
+    margin: 0 1.2rem;
+    border-radius: 1rem;
+    color: var(--neutra);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.type {
+    border-radius: 1rem ;
+    color: var(--dark-main);
+    width: 200px; 
+    height: 60px;     
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+
+.button-2 {
+    border-radius: 1rem ;
+    color: var(--neutra);
+    width: 200px; 
+    height: 60px;
+    background-image: linear-gradient(90deg, #65e2d9 2%, #339ecc 100%);    
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    margin-top: 2rem;
+    
+    
+    
 }

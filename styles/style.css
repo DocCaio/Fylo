@@ -3,7 +3,7 @@
  @import '/styles/components/extra.css';
  
  body {
-    background-color: var(--dark);
+    background-color: var(--dark-main);
     font-size: 14px;
  }
 
@@ -11,8 +11,8 @@
 --font-primaria: 'Open Sans', sans-serif;
 --fonte-secundaria:'Raleway', sans-serif;
 
-
---dark:hsl(217, 28%, 15%);
+--dark-main:hsl(218, 28%, 13%);
+--dark-bg:hsl(217, 28%, 15%);
 
 
 
