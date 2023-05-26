@@ -38,11 +38,39 @@
    
 }
 
+.logo-desktop {
+    display: none;
+}
+
+
 @media screen and (min-width: 1024px) {
     .containner-5 {
       display: flex;
       
+      
     }
+
+    
+    .gps {
+     height: 10%;
+    }
+
+    .web {
+        height: 20%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-desktop {
+        display: block;
+        height: 10%;
+    }
+
+    
+
+    
         
  
       

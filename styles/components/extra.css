@@ -15,17 +15,19 @@
 
 }
 
-.div-sub {
-    margin: 1rem;
-    text-align: start;
+.sub-div {
+    margin-top: 2rem;
+    margin-right: 10rem;
+    
 }
+
+
 
 .sub {
     font-family: var(--fonte-primaria);
     color: var(--blue-1);
-    font-weight: 400;   
-    justify-content: flex-start;
-    margin-top: 2rem;
+    font-weight: 400; 
+    
    
 }
 
@@ -77,17 +79,23 @@
     }
 
     .containner-sub {        
-        flex-direction: column;margin-top: 10rem;
+        flex-direction: column;
+        margin-top: 10rem;
     }
     
     
     .Photo {
         width: 30vw;
-        margin-left: 2rem;
+        margin-left: 5rem;
     }
 
     .containner-4 {       
        width: 40%;
+       
+    }
+
+    .sub-div {
+      margin-right: 12rem;
     }
 
 }
