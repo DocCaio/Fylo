@@ -71,3 +71,20 @@
     margin: 1.5rem;
 }
 
+
+
+@media screen and (min-width: 1024px) {
+    .illustration-intro {
+        width: 40vw;
+    }
+
+    .containner-2 {
+        display: grid;        
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+        
+        
+    }
+
+}
+    

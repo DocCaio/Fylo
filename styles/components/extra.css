@@ -17,6 +17,7 @@
 
 .div-sub {
     margin: 1rem;
+    text-align: start;
 }
 
 .sub {
@@ -63,8 +64,30 @@
     font-family: var(--fonte-primaria);
     font-size: 14px;
     margin-top: 2rem;
-   
     
     
     
+}
+
+@media screen and (min-width: 1024px) {
+    .containner-3 {
+       display: flex; 
+              
+
+    }
+
+    .containner-sub {        
+        flex-direction: column;margin-top: 10rem;
+    }
+    
+    
+    .Photo {
+        width: 30vw;
+        margin-left: 2rem;
+    }
+
+    .containner-4 {       
+       width: 40%;
+    }
+
 }
