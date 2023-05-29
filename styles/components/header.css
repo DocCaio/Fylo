@@ -27,13 +27,11 @@
 
 @media screen and (min-width: 1024px) {
     .logo {
-      display: flex; 
+      display: flex;
+      
       
     }
 
-    .logo {
-        
-    }
     
 }
 
