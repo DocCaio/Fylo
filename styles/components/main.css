@@ -25,10 +25,37 @@
     margin-top: 1rem;
 }
 
-.container-button {
- background-color: var(--blue-2);
- color: var(--neutra);
- padding: 1rem 3rem;
+.main_div-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.main_container-imput {     
+    width: 280px; 
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 400 bolder;       
+    font-family: var(--fonte-primaria);    
+    margin-top: 2rem;
+    outline: none;
+
+}
+
+.main_container-button {          
+        border-radius: 2rem ;
+        color: var(--neutra);
+        padding: 1rem 4rem;
+        background-image: linear-gradient(90deg, #65e2d9 2%, #339ecc 100%);    
+        font-family: var(--fonte-primaria);
+        font-size: 1rem;
+        font-weight: 400 bolder;
+        margin-top: 2rem; 
+        
+        
+        
+       
 
 
 }
