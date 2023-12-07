@@ -1,37 +1,24 @@
-.nav {
+@import '/styles/style.css';
+.header-nav {
     display: flex;
-    justify-content: space-between;
-    font-family: var(--fonte-secundaria);
-    
-    
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 1rem;
 }
 
-.logo {
-    margin: 1rem;
-    width: 40%;
-    height: 40%;
-    
+.header-nav-logo {
+    width: 35%;
 }
 
-
-
-.list {
-    display: flex;
-    color: var(--neutra);
-    font-family: var(--fonte-primaria);
-    font-weight: 400;
-    margin: 1.2rem;
+.header-nav-list {
+    display: inline-flex;
     gap: 1rem;
-
 }
 
-@media screen and (min-width: 1024px) {
-    .logo {
-      display: flex;
-      
-      
-    }
+a  {
+    text-decoration: none;
+    color: var(--Dark-Blue-link);
+    font-family: var(--fonte-secundaria);
+    font-weight: 400 bolder;
 
-    
 }
-
