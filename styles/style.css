@@ -1,6 +1,7 @@
  @import '/styles/components/header.css';
  @import'/styles/components/main.css';
- @import '/styles/components/extra.css';
+ @import '/styles/components/servicos.css';
+ @import '/styles/components/proditividade.css';
  @import '/styles/components/footer.css';
  
  body {

@@ -1,0 +1,18 @@
+@import '/styles/style.css';
+
+.servicos {
+  margin-top: 5rem;  
+}
+
+.servicos_main-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+      
+}
+
+.servicos_main-div-img {
+   margin-top: 3rem;
+   margin-bottom: 1rem;
+}
+
