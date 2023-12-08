@@ -2,6 +2,7 @@
  @import'/styles/components/main.css';
  @import '/styles/components/servicos.css';
  @import '/styles/components/proditividade.css';
+ @import '/styles/components/acesso.css';
  @import '/styles/components/footer.css';
  
  body {
@@ -36,7 +37,8 @@
 --Dark-Blue-bg: hsl(219, 30%, 18%);
 
 /* Accent */
-
+--light-blue:#585989;
+--link:#20554C;
 --Cyan-gradient: hsl(176, 68%, 64%);
 --Blue-gradient: hsl(198, 60%, 50%);
 --Light-Red: hsl(0, 100%, 63%);

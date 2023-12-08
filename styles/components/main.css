@@ -5,7 +5,7 @@
 }
 
 .main_container-img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .main_container-text {

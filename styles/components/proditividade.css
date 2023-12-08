@@ -1,5 +1,22 @@
 @import '/styles/style.css';
 
-.produtividade_div-img {
-    width: 100%;
+.produtividade {
+    margin-top: 2rem;   
+    text-align: center;
 }
+
+.produtividade_div-img {
+   max-width: 100%;
+}
+
+.produtividade_div-text {
+    font-weight: 400;
+
+}
+
+
+
+.produtividade_div-link {
+    display: inline-flex;
+  }
+  
