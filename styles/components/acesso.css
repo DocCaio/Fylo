@@ -2,10 +2,31 @@
 
 
 .acesso_antecipado {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     background-color: var(--light-blue);
     color: aliceblue;
+    align-items: center;
 }
+  .acesso_antecipado-input {
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 2rem ;
+  }
+
+
 
 .acesso_antecipado-link {
-    color:white;
+        border-radius: 2rem;
+        color: var(--neutra);
+        padding: 1rem 4rem;
+        background-image: linear-gradient(90deg, #65e2d9 2%, #339ecc 100%);    
+        font-family: var(--fonte-primaria);
+        font-size: 1rem;
+        font-weight: 400 bolder;
+        margin-top: 1rem;
+         
+    
 }
