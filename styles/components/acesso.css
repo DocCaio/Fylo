@@ -9,6 +9,22 @@
     background-color: var(--light-blue);
     color: aliceblue;
     align-items: center;
+    padding: 4rem;
+}
+
+.acesso_antecipado-text {
+  font-family: var(--fonte-primaria);
+  font-weight: 700 bolder;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.acesso_antecipado-paragrafo {
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+  font-size: .8rem;
+  margin-bottom: 1rem;
+
 }
   .acesso_antecipado-input {
     padding: 1rem 2rem;
