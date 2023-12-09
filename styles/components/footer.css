@@ -2,5 +2,33 @@
 
 .footer {
     background-color: var(--Dark-Blue-bg);
+    color: var(--neutra);
     
+}
+
+.footer_logo {
+    padding: 1rem 2rem;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+.footer_phone , .footer_email {
+    padding: .5rem 2rem;
+}
+
+.footer_div_list {          
+    padding: 1rem 2rem;
+    
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer_icons {
+    text-align: center;
+    align-items: center;
+    padding: 1rem 2rem;
 }
