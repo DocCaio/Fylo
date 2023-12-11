@@ -11,6 +11,16 @@
       
 }
 
+.servicos_main-div-text {
+  font-family: var(--fonte-secundaria);
+  font-weight: 400 bolder;
+  line-height: 1rem;
+  line-height: normal;
+ 
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
 .servicos_main-div-img {
    margin-top: 3rem;
    margin-bottom: 1rem;

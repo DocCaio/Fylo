@@ -10,13 +10,42 @@
 }
 
 .produtividade_div-text {
-    font-weight: 400;
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+}
+.produtividade_div-paragrafo {
+  font-family: var(--fonte-secundaria);
+  font-weight: 400 bolder;
+  line-height: 1rem;
+  line-height: normal;
+
+  font-size: 1rem;
+  margin-top: 1rem;
+
 
 }
 
 
-
 .produtividade_div-link {
     display: inline-flex;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400 bolder;
+    line-height: 1rem;
+    line-height: normal;  
+    font-size: 1rem;
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    
   }
+
+  .produtividade_div-link:hover {
+    color: hsl(170, 42%, 22%);
+  } 
+
+
   
