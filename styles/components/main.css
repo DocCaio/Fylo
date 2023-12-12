@@ -51,9 +51,29 @@
         font-family: var(--fonte-primaria);
         font-size: 1rem;
         font-weight: 400 bolder;
-        margin-top: 2rem;        
-        
-       
+        margin-top: 2rem;  
+        text-decoration: none;      
 
 
 }
+
+@media (min-width: 1440px) {
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.main_container-div {
+    display: flex;
+    flex-direction: column; 
+    text-align: start; 
+    align-items: start;  
+}
+
+
+
+}
+

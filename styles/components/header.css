@@ -15,10 +15,30 @@
     gap: 1rem;
 }
 
-a  {
+.header-nav-list-link  {
     text-decoration: none;
     color: var(--Dark-Blue-link);
     font-family: var(--fonte-secundaria);
     font-weight: 400 bolder;
+    font-size: .8rem;
+
+}
+
+@media (min-width: 1440px) {
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 3rem;
+    }
+
+    .header-nav-list-link {
+        font-weight: 700 bolder;
+    font-size: 1.2rem;
+
+    }
+
+
 
 }

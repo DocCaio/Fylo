@@ -27,8 +27,22 @@
     gap: 1rem;
 }
 
+.footer_list_strong {
+    font-family: var(--fonte-primaria);
+    font-size: 1.2rem;
+    font-weight: 400 bolder;
+}
+
+.footer_list-link {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: .8rem;
+}
+
 .footer_icons {
     text-align: center;     
 }
+
+
 
 

@@ -29,7 +29,7 @@
 }
 
 
-.produtividade_div-link {
+.produtividade_div-link-arrow {
     display: inline-flex;
     font-family: var(--fonte-secundaria);
     font-weight: 400 bolder;
@@ -43,7 +43,7 @@
     
   }
 
-  .produtividade_div-link:hover {
+  .produtividade_div-link-arrow:hover {
     color: hsl(170, 42%, 22%);
   } 
 
