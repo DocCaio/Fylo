@@ -47,7 +47,7 @@
   }
 
 
-  servicos_main-div-text {
+  .servicos_main-div-text {
     font-family: var(--fonte-secundaria);
     font-weight: 700 bolder;
     line-height: 1.5rem;
@@ -55,6 +55,16 @@
    
     font-size: 1.2rem;
     margin-top: 1rem;
+  }
+
+  .servicos_main-div-paragrafo {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    line-height: 1.5rem;
+    line-height: normal;
+   
+    font-size: .8rem;
+
   }
 
 }
