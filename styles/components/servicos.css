@@ -37,13 +37,17 @@
 }
 
 @media (min-width: 1440px) {
+
+  .servicos {
+    padding: 4rem 0rem;
+  }
   .servicos_main-div {
    display: grid;
    justify-content: center;
    grid-template-columns: repeat(2, 1fr);
    grid-gap: 5rem;  
    margin: 1rem auto;
-   width: 62.5rem
+   width: 82.5rem;
   }
 
 

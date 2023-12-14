@@ -45,3 +45,30 @@
 
 }
 
+:root {
+   background-color: var(--Dark-Blue-footer);
+}
+@media screen and (prefers-color-scheme: dark) {
+   :root{
+
+      body {
+         background-color: var(---Dark-Blue-main);
+         font-size: 14px;
+         color: var(--neutra);
+      }
+
+     .header-nav-list-link {
+         color: var(--neutra);
+      }
+
+      .header-nav-logo {         
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+      }
+
+     
+       
+   }
+}
+
+
