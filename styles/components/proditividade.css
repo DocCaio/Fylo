@@ -1,12 +1,14 @@
 @import '/styles/style.css';
 
 .produtividade {
-    margin-top: 2rem;   
+    padding: 2rem 0rem;  
     text-align: center;
 }
 
+
+
 .produtividade_div-img {
-   max-width: 100%;
+  max-width: 100%;
 }
 
 .produtividade_div-text {
@@ -47,5 +49,29 @@
     color: hsl(170, 42%, 22%);
   } 
 
+  @media (min-width: 1440px) {
+
+    .produtividade {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .produtividade_img {
+    max-width: 100%;
+ }
+
+  .produtividade_text {  
+    display: flex;  
+    flex-direction: column;
+    text-align: start;
+   
+  }
+  .produtividade_div-link {
+    padding: 1rem 0rem;
+  }
+
+  }
 
   
