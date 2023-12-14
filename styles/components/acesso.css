@@ -2,14 +2,10 @@
 
 
 .acesso_antecipado {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: var(--light-blue);
-    color: aliceblue;
-    align-items: center;
-    padding: 4rem;
+  background-color: var(--light-blue);
+  color: var(--neutra);  
+  padding: 4rem;
+  text-align: center;
 }
 
 .acesso_antecipado-text {
@@ -27,41 +23,38 @@
 
 }
 
-.acesso_antecipado-div-imput {
-  padding: 2rem 0rem; 
-}
-  .acesso_antecipado-input {
-    padding: 1rem 2rem;
-    outline: none;
-    border-radius: 2rem;
-     
-  }
 
+.acesso_antecipado-input {
+  padding: 1rem 2rem; 
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+   
+}
 
 
 .acesso_antecipado-link {
-        border-radius: 2rem;
-        color: var(--neutra);
-        padding: 1rem 4rem;
-        background-image: linear-gradient(90deg, #65e2d9 2%, #339ecc 100%);    
-        font-family: var(--fonte-primaria);
-        font-size: 1rem;
-        font-weight: 400 bolder;
-        margin-top: 1rem;      
-    
+      border-radius: 2rem;
+      color: var(--neutra);
+      padding: 1rem 4.2rem;
+      background-image: linear-gradient(90deg, #65e2d9 2%, #339ecc 100%);    
+      font-family: var(--fonte-primaria);
+      font-size: 1rem;
+      font-weight: 400 bolder;
+      margin-top: 1rem;      
+  
 }
+
 @media (min-width: 1440px) {
  
-  .acesso_antecipado-main-div {
+  .acesso_antecipado {
     display: flex;
-    justify-content: space-between;
-    gap: 10rem;
+    justify-content: space-between;    
     align-items: center;
+    text-align: start;
 
   }
 
-  .acesso_antecipado-text {
-    text-align: start;
+  .acesso_antecipado-text {    
     font-family: var(--fonte-primaria);
     font-weight: 700 bolder;
     font-size: 2rem;
@@ -76,5 +69,48 @@
   
   }
 
+  .acesso_antecipado-div-btns {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7rem;
+  }
+
+
+  .acesso_antecipado-input {
+    padding: 1rem 5rem; 
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+     
+  }
+  
+  
+  .acesso_antecipado-link {
+        border-radius: 2rem;    
+        padding: 1rem 4.2rem;        
+        font-size: 1rem;
+        font-weight: 700 bolder;
+        margin-top: 1rem; 
+        text-align: center;     
+    
+  }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
