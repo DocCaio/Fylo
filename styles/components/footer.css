@@ -12,6 +12,7 @@
     filter: brightness(0) invert(1);
 }
 
+
 .footer_phone , .footer_email {
     padding: .5rem 2rem;
 }
@@ -42,6 +43,47 @@
 .footer_icons {
     padding: 2rem 0rem;
     text-align: center;     
+}
+
+
+@media (min-width: 1440px) {
+  
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-contact {
+    margin: 1.5rem 0rem; 
+}
+
+.footer_div_list , .footer_icons {
+    margin: 5rem 0rem;
+}
+
+.footer_list_strong {
+    font-family: var(--fonte-primaria);
+    font-size: 1.6rem;
+    font-weight: 400 bolder;
+}
+
+.footer_list-link {
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.footer_icons {
+  display: inline-flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+
+}
+
+
+
+
+
 }
 
 
